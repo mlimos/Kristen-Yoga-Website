@@ -1,0 +1,24 @@
+.bio-row {
+    padding-top: 3em;
+    /*border: 5px red solid;*/
+    height: 35em;
+}
+
+.picture {
+    width: 30%;
+}
+
+.picture img {
+    width: 100%;
+}
+
+.text {
+    width: 70%;
+    /*border: 3px green solid;*/
+    padding: 0 1em 0 2em;
+
+}
+
+.text p {
+    margin-top: 0.5em;
+}
