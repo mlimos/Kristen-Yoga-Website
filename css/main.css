@@ -1,8 +1,6 @@
 body {
-    /*font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
     background-color: white;
-    font-family: 'Roboto', sans-serif;
-font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 a {
@@ -11,22 +9,26 @@ a {
 }
 
 a:hover {
-    color: #26979F;
+    color: #6AC5A9;
 }
 
 a:active {
-    color: #26979F;
+    color: #6AC5A9;
 }
 
 .header-container {
-    padding: 0 8em 2em 8em;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 0 8em 0 8em;
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    border-bottom: 1px solid #C9C6C4;
+    margin:auto;
 }
 
 .title {
     text-align: center;
-    font-size: 1.25em;
+    font-size: 1.75em;
 }
 
 .menu {
@@ -39,27 +41,30 @@ a:active {
 }
 
 .pictures {
+    padding-top: 3em;
     margin: auto;
-    width: 75%;
-    border: 5px solid red;
-    height: 35em;
+    width: 55%;
+    height: auto;
 }
 
 .headline {
+    font-family: 'Julius Sans One', sans-serif;
     padding: 0 1em 0 1em;
     margin: auto;
     width: 60%;
     font-size: 2em;
 }
 
-.headline h3 {
+.headline h5 {
     /*width: 24%;*/
-    border-bottom: 3px solid #C9C6C4;
+    /*border-bottom: 1px solid #C9C6C4;*/
 }
 
 .content {
-    display: flex;
-    justify-content: space-between;
     margin: auto;
-    width: 60%;
+    width: 57%;
+}
+
+.pictures img {
+    width: 100%;
 }

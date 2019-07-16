@@ -1,4 +1,6 @@
 .bio-row {
+    display: flex;
+    justify-content: space-between;
     /*padding-top: 1em;*/
     /*border: 5px red solid;*/
     height: 35em;
@@ -20,5 +22,5 @@
 }
 
 .text p {
-    margin-top: 0.5em;
+    margin-top: 0em;
 }

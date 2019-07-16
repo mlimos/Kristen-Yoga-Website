@@ -1,0 +1,30 @@
+table {
+    color: #333; /* Lighten up font color */
+    width: 100%; 
+    border-collapse: collapse; 
+    border-spacing: 0; 
+    margin: 2em 0 2em 0;
+    table-layout: fixed;
+}
+
+td, th { border: 1px solid #CCC; height: 30px; }
+
+th {
+    background-color: #6AC5A9;
+    font-weight: bold;
+}
+
+tr {
+    text-align: center;
+    background-color: #F3F3F3;
+}
+
+.subheading {
+    color: #6AC5A9;
+    font-size: 1.5em;
+    margin: 0 0 0 0;
+}
+
+p {
+    margin: 0.5em 0 0.5em 0;
+}
