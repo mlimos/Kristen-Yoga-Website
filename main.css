@@ -1,6 +1,8 @@
 body {
-    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    /*font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;*/
     background-color: white;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 a {
